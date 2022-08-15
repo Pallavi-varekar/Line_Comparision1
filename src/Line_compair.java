@@ -5,7 +5,6 @@ public class Line_compair {
     public static void main(String[] args) {
 
         System.out.println("Welcome to Line Comparison Computation Program.");
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the Co-ordinates of x1 and y1 : ");
@@ -23,6 +22,7 @@ public class Line_compair {
         double len = Math.sqrt((x2 - x1) * (x2 - x1)  +  (y2 - y1) * (y2 - y1));
 
         System.out.println("Length of the given Line is : " + len + " units" );
+
 
     }
 }
